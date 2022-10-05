@@ -4,10 +4,10 @@ import Logo from "../images/Logo.svg";
 const Navbar = () => {
   return (
     <div className="container mx-auto">
-      <div className="flex  pt-8 justify-between">
-        <img src={Logo} className='w-40' alt="logo" />
+      <div className="flex  mt-4 justify-between">
+        <img src={Logo} className="w-40" alt="logo" />
         <div className="lg:flex hidden active:text-primary">
-          <ul className="flex gap-9 ">
+          <ul className="flex gap-9 mt-4 ">
             <li className="active:text-primary">Home</li>
             <li className="active:text-primary">Services</li>
             <li className="active:text-primary">Plans</li>
@@ -16,8 +16,13 @@ const Navbar = () => {
             <li className="active:text-primary">Testimonials</li>
           </ul>
         </div>
-        <div>
-          <a href="google.com" className="border-primary border-solid border-[1.5px]  text-primary font-[600]  py-3 px-10 rounded-md">Get Started</a>
+        <div className="lg:flex hidden">
+          <a
+            href="google.com"
+            className="border-primary border-solid border-[1.5px] text-primary font-[600]  py-3 px-10 rounded-md"
+          >
+            Get Started
+          </a>
         </div>
       </div>
     </div>
