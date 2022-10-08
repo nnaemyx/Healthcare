@@ -5,3 +5,7 @@
 body {
     font-family: 'Lato', sans-serif;
 }
+
+.box {
+    box-shadow: 0px 4px 4px rgba(0, 154, 86, 0.1);
+}
