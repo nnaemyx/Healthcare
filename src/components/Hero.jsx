@@ -4,7 +4,7 @@ import Group from "../images/Hero-Avartar.svg";
 
 const Hero = () => {
   return (
-    <div className="container mt-24 mx-auto">
+    <div className="container mt-[10rem] mx-auto">
       <div className="flex flex-col items-center lg:flex-row md:flex-row lg:gap-[15.7rem] ">
         <div className="lg:w-[518px] md:w-[350px] -mt-16 lg:mt-0">
           <h1 className="text-[20px] lg:-mt-16 lg:text-[48px] md:text-[25px] mb-4 font-semibold ">
@@ -50,7 +50,7 @@ const Hero = () => {
           </div>
         </div>
 
-        <div className="relative">
+        <div className="">
           <img
             src={Heroimage}
             className="lg:w-[445px] w-[285px] -z-10 lg:mt-[-4rem] md:-mt-8"
