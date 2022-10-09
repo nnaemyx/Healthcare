@@ -26,7 +26,7 @@ const NavMobile = () => {
         <li className="text-[18px]">
           <a
             href="google.com"
-            class="block py-2 pr-4 pl-3 text-white rounded hover:bg-primary/20 md:hover:bg-transparent md:hover:text-primary md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+            class="block py-2 pr-4 pl-3 text-white rounded hover:bg-primary/20 md:hover:bg-transparent md:hover:text-primary md:p-0 md:dark:hover:text-white  "
           >
             Plans
           </a>
@@ -34,7 +34,7 @@ const NavMobile = () => {
         <li className="text-[18px]">
           <a
             href="google.com"
-            class="block py-2 pr-4 pl-3 text-white rounded hover:bg-primary/20 md:hover:bg-transparent md:hover:text-primary md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+            class="block py-2 pr-4 pl-3 text-white rounded hover:bg-primary/20 md:hover:bg-transparent md:hover:text-primary md:p-0 md:dark:hover:text-white"
           >
             Team
           </a>
@@ -42,7 +42,7 @@ const NavMobile = () => {
         <li className="text-[18px]">
           <a
             href="google.com"
-            class="block py-2 pr-4 pl-3 text-white rounded hover:bg-primary/20 md:hover:bg-transparent md:hover:text-primary md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+            class="block py-2 pr-4 pl-3 text-white rounded hover:bg-primary/20 md:hover:bg-transparent md:hover:text-primary md:p-0 md:dark:hover:text-white"
           >
             Articles
           </a>
