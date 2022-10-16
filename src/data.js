@@ -4,6 +4,9 @@ import Icon3 from './images/counselling.svg'
 import Insurance1 from './images/Insurance1.svg';
 import Insurance2 from './images/Insurance2.svg';
 import Insurance3 from './images/Insurance3.svg';
+import Article1 from './images/Article1.svg';
+import Article2 from './images/Article2.svg';
+import Article3 from './images/Article3.svg'
 import Team2 from './images/Team2.svg'
 import Team3 from './images/Team3.svg'
 
@@ -106,3 +109,28 @@ export const insurance = {
     },
   ],
 };
+
+export const articles = {
+  title: "Articles",
+  paragraph: "Stay up to date with latest trends and new health insurance policies ",
+  content: [
+    {
+      image: <Article1/>,
+      heading: "The Challenge of Choosing a Health Insurace Plans ",
+      text: "Health insurance or medical insurance (also known as medical aid in South Africa) is a type of insurance that covers the whole or a part of the risk of a person incurring medical expenses.",
+      button: "Read More"
+    },
+    {
+      image: <Article2/>,
+      heading: "Pricing Plan and Its Benefits for you and your Family  ",
+      text: "Health insurance or medical insurance (also known as medical aid in South Africa) is a type of insurance that covers the whole or a part of the risk of a person incurring medical expenses.",
+      button: "Read More"
+    },
+    {
+      image: <Article3/>,
+      heading: "The Best Health Insurnce Plan for you and your Family Members ",
+      text: "Health insurance or medical insurance (also known as medical aid in South Africa) is a type of insurance that covers the whole or a part of the risk of a person incurring medical expenses.",
+      button: "Read More"
+    },
+  ]
+}
