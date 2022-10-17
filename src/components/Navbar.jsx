@@ -48,7 +48,7 @@ const Navbar = () => {
             </button>
             <div
               onClick={() => setMobileNav(!mobileNav)}
-              className="md:hidden text-2xl lg:text-3xl text-primary py-2 cursor-pointer"
+              className="lg:hidden text-2xl lg:text-3xl text-primary py-2 cursor-pointer"
             >
               {mobileNav ? <CgClose /> : <AiOutlineMenu />}
             </div>
@@ -114,7 +114,7 @@ const Navbar = () => {
       <div
         className={`${
           mobileNav ? "left-0" : "-left-full"
-        } md:hidden fixed bottom-0 w-full max-w-xs h-screen transition-all`}
+        } lg:hidden fixed bottom-0 w-full max-w-xs h-screen transition-all`}
       >
         <NavMobile />
       </div>

@@ -9,7 +9,7 @@ const NavMobile = () => {
         <li className="text-[18px]">
           <a
             href="google.com"
-            class="block py-2 pr-4 pl-3 text-white bg-primary rounded md:bg-transparent md:text-primary md:p-0 dark:text-white"
+            class="block py-2 pr-4 pl-3 text-white bg-primary rounded md:bg-transparent  md:p-0 dark:text-white"
             aria-current="page"
           >
             Home
