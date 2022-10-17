@@ -12,7 +12,7 @@ const Testimonials = () => {
             <h1 className='text-[25px] font-semibold'>{title}</h1>
             <p className='text-[18px]'>{paragraph}</p>
 
-            <div className='w-[19rem] lg:w-auto md:w-auto mx-auto ' >
+            <div className='w-[18.5rem] lg:w-auto md:w-auto mx-auto ' >
               <TestimonialSlider/>
             </div>  
         </div>      
