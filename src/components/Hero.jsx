@@ -1,5 +1,5 @@
 import React from "react";
-import Heroimage from "../images/Group 27.svg";
+import Heroimage from "../images/Group 27.png";
 import Group from "../images/Hero-Avartar.svg";
 
 const Hero = () => {
@@ -8,8 +8,8 @@ const Hero = () => {
       <div className="flex flex-col items-center lg:flex-row md:flex-row lg:gap-[15.7rem] ">
         <div className="lg:w-[518px] md:w-[350px] -mt-16 lg:mt-0">
           <h1 className="text-[20px] lg:-mt-16 lg:text-[48px] md:text-[25px] mb-4 font-semibold ">
-            Simplified and <span className="text-primary">Assessible</span>{" "}
-            Healthcare for you an your Family
+            Simplified and <span className="text-primary">Assessible</span>
+            Healthcare for you and your Family
           </h1>
           <p className="lg:text-[21px] text-[15.6px]">
             Access better Healthcare facilities. Join now to insure your health
