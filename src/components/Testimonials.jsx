@@ -12,8 +12,8 @@ const Testimonials = () => {
             <h1 className='text-[25px] font-semibold'>{title}</h1>
             <p className='text-[18px]'>{paragraph}</p>
 
-            <div >
-                <TestimonialSlider/>
+            <div className='w-[19rem] lg:w-auto md:w-auto mx-auto ' >
+              <TestimonialSlider/>
             </div>  
         </div>      
     </div>
