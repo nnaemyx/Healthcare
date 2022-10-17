@@ -17,7 +17,7 @@ const Articles = () => {
                                 </div>
                                 <div className='space-y-2'>
                                     <h1 className='text-[19px] font-semibold'>{items.heading}</h1>
-                                    <p className='lg:w-[21rem] w-auto md:w-auto'>{items.text}</p>
+                                    <p className='lg:w-auto w-auto md:w-auto'>{items.text}</p>
                                     <button className="bg-primary/20 text-[18px] font-semibold py-3 px-10 rounded-md  lg:py-3 lg:px-12 text-primary">{ items.button}</button>
                                 </div>
                             </div>
