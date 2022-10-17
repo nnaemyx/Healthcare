@@ -7,6 +7,9 @@ import Insurance3 from './images/Insurance3.svg';
 import Article1 from './images/Article1.svg';
 import Article2 from './images/Article2.svg';
 import Article3 from './images/Article3.svg'
+import Avartar1 from './images/Avartar1.svg';
+import Avartar2 from './images/Avartar2.svg';
+import Avartar3 from './images/Avartar3.svg';
 import Team2 from './images/Team2.svg'
 import Team3 from './images/Team3.svg'
 
@@ -134,3 +137,78 @@ export const articles = {
     },
   ]
 }
+
+export const testimonials = {
+  title: "Testimonials ",
+  paragraph: "What our Clients Says About Us ",
+  contents: [
+    {
+      testimonialList: [
+        {
+          avartar: <Avartar3 />,
+          heading: "Nora Robert ",
+          text: "So far everything relating to my claim with General & Medical has gone smoothly. Theo Insurance  has provided a very professional service. In particular he quickly engaged with your underwriters to ensure I received a quick response and quickly communicated this to me since there is a very short time line before my medical procedure.",
+        },
+        {
+          avartar: <Avartar1 />,
+          heading: "Ekene Smart  ",
+          text: "So far everything relating to my claim with General & Medical has gone smoothly. Theo Insurance  has provided a very professional service. In particular he quickly engaged with your underwriters to ensure I received a quick response and quickly communicated this to me since there is a very short time line before my medical procedure. ",
+        },
+        {
+          avartar: <Avartar2 />,
+          heading: "Precious Bambam",
+          text: "Theo Insurance   was extremely helpful in going thorough all the different policies available. As I was seeking a continued moratorium policy the situation was slightly more complicated but Michael endeavoured to make the process painless. He was very pleasant to deal with and responsive so that the policy could become effective quickly",
+        },
+        {
+          avartar: <Avartar2 />,
+          heading: "Precious Bambam",
+          text: "Theo Insurance   was extremely helpful in going thorough all the different policies available. As I was seeking a continued moratorium policy the situation was slightly more complicated but Michael endeavoured to make the process painless. He was very pleasant to deal with and responsive so that the policy could become effective quickly",
+        },
+        {
+          avartar: <Avartar2 />,
+          heading: "Precious Bambam",
+          text: "Theo Insurance   was extremely helpful in going thorough all the different policies available. As I was seeking a continued moratorium policy the situation was slightly more complicated but Michael endeavoured to make the process painless. He was very pleasant to deal with and responsive so that the policy could become effective quickly",
+        },
+        {
+          avartar: <Avartar2 />,
+          heading: "Precious Bambam",
+          text: "Theo Insurance   was extremely helpful in going thorough all the different policies available. As I was seeking a continued moratorium policy the situation was slightly more complicated but Michael endeavoured to make the process painless. He was very pleasant to deal with and responsive so that the policy could become effective quickly",
+        },
+      ],
+    },
+    {
+      testimonialList: [
+        {
+          avartar: <Avartar3 />,
+          heading: "Nora Robert ",
+          text: "So far everything relating to my claim with General & Medical has gone smoothly. Theo Insurance  has provided a very professional service. In particular he quickly engaged with your underwriters to ensure I received a quick response and quickly communicated this to me since there is a very short time line before my medical procedure.",
+        },
+        {
+          avartar: <Avartar1 />,
+          heading: "Ekene Smart  ",
+          text: "So far everything relating to my claim with General & Medical has gone smoothly. Theo Insurance  has provided a very professional service. In particular he quickly engaged with your underwriters to ensure I received a quick response and quickly communicated this to me since there is a very short time line before my medical procedure. ",
+        },
+        {
+          avartar: <Avartar2 />,
+          heading: "Precious Bambam",
+          text: "Theo Insurance   was extremely helpful in going thorough all the different policies available. As I was seeking a continued moratorium policy the situation was slightly more complicated but Michael endeavoured to make the process painless. He was very pleasant to deal with and responsive so that the policy could become effective quickly",
+        },
+        {
+          avartar: <Avartar2 />,
+          heading: "Precious Bambam",
+          text: "Theo Insurance   was extremely helpful in going thorough all the different policies available. As I was seeking a continued moratorium policy the situation was slightly more complicated but Michael endeavoured to make the process painless. He was very pleasant to deal with and responsive so that the policy could become effective quickly",
+        },
+        {
+          avartar: <Avartar2 />,
+          heading: "Precious Bambam",
+          text: "Theo Insurance   was extremely helpful in going thorough all the different policies available. As I was seeking a continued moratorium policy the situation was slightly more complicated but Michael endeavoured to make the process painless. He was very pleasant to deal with and responsive so that the policy could become effective quickly",
+        },
+        {
+          avartar: <Avartar2 />,
+          heading: "Precious Bambam",
+          text: "Theo Insurance   was extremely helpful in going thorough all the different policies available. As I was seeking a continued moratorium policy the situation was slightly more complicated but Michael endeavoured to make the process painless. He was very pleasant to deal with and responsive so that the policy could become effective quickly",
+        },
+      ],
+    },
+  ],
+};

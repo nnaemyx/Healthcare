@@ -5,6 +5,7 @@ import Navbar from "../components/Navbar";
 import Qualified from "../components/Qualified";
 import Services from "../components/Services";
 import Articles from "../components/Articles"
+import Testimonials from "../components/Testimonials";
 
 function Home() {
   return (
@@ -14,7 +15,8 @@ function Home() {
       <Services />
       <Insurance/>
       <Qualified/>
-      <Articles/>
+      <Articles />
+      <Testimonials/>
     </div>
   );
 }
