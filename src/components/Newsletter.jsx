@@ -2,9 +2,9 @@ import React from "react";
 
 const Newsletter = () => {
   return (
-    <div className="container mx-auto mt-2">
-      <div className="bg-primary rounded-md  w-[110%] lg:w-[90%] py-4 sm:py-6 lg:mx-2">
-        <div className="flex lg:flex-row space-y-4 sm:space-y-0 md:flex-row flex-col px-2  justify-between">
+    <div className="container mx-auto mt-8 ">
+      <div className="bg-primary rounded-md -ml-3 w-[110%] lg:w-[90%] py-4 sm:py-6 lg:mx-2">
+        <div className="flex lg:flex-row space-y-4  sm:space-y-0 md:flex-row flex-col px-2  justify-between">
           <div className=" lg:mx-6  text-[12px] sm:text-[18px] w-[100%] md:w-[47%]  text-white lg:w-[35%]">
             <h1>
               Subcribe to our News letter to stay updated with our new health
