@@ -4,8 +4,8 @@ import {Link} from "react-router-dom"
 
 const NavMobile = () => {
   return (
-    <nav className="bg-primary z-0 shadow-2xl w-[60%] h-full">
-      <ul className="text-center h-full flex flex-col items-center active:dark:text-primary justify-center gap-y-6">
+    <nav className="bg-primary  shadow-2xl w-[60%] h-full">
+      <ul className="text-center h-full  flex flex-col items-center active:dark:text-primary justify-center gap-y-6">
         <li className="text-[18px]">
           <a
             href="google.com"

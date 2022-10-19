@@ -7,18 +7,18 @@ import "swiper/css";
 import "swiper/css/navigation";
 import '../slider.css'
 // import required modules
-import { Autoplay, Navigation } from "swiper";
+import { Autoplay} from "swiper";
 
 import { testimonials } from "../data";
 
 const TestimonialSlider = () => {
   const { contents } = testimonials;
   return (
-    <Swiper className="testimonialSlider" modules={[Autoplay, Navigation]} navigation={true} autoplay={true}>
+    <Swiper className="testimonialSlider" modules={[Autoplay]}  autoplay={true}>
       {contents.map((content, index) => {
         return (
           <SwiperSlide key={index}>
-            <div className="grid grid-cols-1 gap-x-5  lg:mx-4 mx-4 md:mx-0  md:grid-cols-2 justify-center items-center lg:grid-cols-3 lg:gap-[30px] mb-20  mt-10">
+            <div className="grid grid-cols-1  gap-x-5  lg:mx-4 mx-4 md:mx-0  md:grid-cols-2 justify-center items-center lg:grid-cols-3 lg:gap-[30px] mb-20  mt-10">
               {content.testimonialList.map((items, index) => {
                 return (
                   <div key={index} className='bg-primary/5  mt-6 lg:mt-0 rounded-md px-4 py-4 lg:px-8 lg:py-6'>
