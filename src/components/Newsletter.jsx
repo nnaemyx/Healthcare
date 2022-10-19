@@ -19,7 +19,7 @@ const Newsletter = () => {
                 placeholder="Enter your email address"
                 name="email"
                 id="email"
-                className="focus:outline-none"
+                className="focus:outline-none text-[12px]"
               />
             </div>
             <div className="bg-primary rounded-sm text-[12px] md:text-[16px] lg:text-[18px] text-white">
