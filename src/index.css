@@ -40,3 +40,11 @@ input::placeholder {
     /* Firefox */
   }
 }
+@media (max-width: 768px) {
+  input::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #009a56;
+    font-size: 9px;
+    /* Firefox */
+  }
+}
