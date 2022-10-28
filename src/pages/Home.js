@@ -7,6 +7,7 @@ import Services from "../components/Services";
 import Articles from "../components/Articles"
 import Testimonials from "../components/Testimonials";
 import Newsletter from "../components/Newsletter";
+import Footer from "../components/Footer";
 
 function Home() {
   return (
@@ -18,7 +19,8 @@ function Home() {
       <Qualified/>
       <Articles />
       <Testimonials />
-      <Newsletter/>
+      <Newsletter />
+      <Footer/>
     </div>
   );
 }
