@@ -7,6 +7,9 @@ import Insurance3 from './images/Insurance3.svg';
 import Article1 from './images/Article1.svg';
 import Article2 from './images/Article2.svg';
 import Article3 from './images/Article3.svg'
+import Article4 from './images/Articles4.png'
+import Article5 from './images/Articles5.png'
+import Article6 from './images/Article6.png'
 import Avartar1 from './images/Avartar1.svg';
 import Avartar2 from './images/Avartar2.svg';
 import Avartar3 from './images/Avartar3.svg';
@@ -115,28 +118,102 @@ export const insurance = {
 
 export const articles = {
   title: "Articles",
-  paragraph: "Stay up to date with latest trends and new health insurance policies ",
+  paragraph:
+    "Stay up to date with latest trends and new health insurance policies ",
   content: [
     {
-      image: <Article1/>,
+      _id: "1",
+      image: <Article1 />,
       heading: "The Challenge of Choosing a Health Insurace Plans ",
       text: "Health insurance or medical insurance (also known as medical aid in South Africa) is a type of insurance that covers the whole or a part of the risk of a person incurring medical expenses.",
-      button: "Read More"
+      button: "Read More",
     },
     {
-      image: <Article2/>,
+      _id: "2",
+      image: <Article2 />,
       heading: "Pricing Plan and Its Benefits for you and your Family  ",
       text: "Health insurance or medical insurance (also known as medical aid in South Africa) is a type of insurance that covers the whole or a part of the risk of a person incurring medical expenses.",
-      button: "Read More"
+      button: "Read More",
     },
     {
-      image: <Article3/>,
-      heading: "The Best Health Insurnce Plan for you and your Family Members ",
+      _id: "3",
+      image: <Article3 />,
+      heading: "The Best Health Insurance Plan for you and your Family Members ",
       text: "Health insurance or medical insurance (also known as medical aid in South Africa) is a type of insurance that covers the whole or a part of the risk of a person incurring medical expenses.",
-      button: "Read More"
+      button: "Read More",
     },
-  ]
-}
+    {
+      _id: "4",
+      image: <Article4 />,
+      heading: "The Best Health Insurance Plan for you and your Family Members ",
+      text: "Health insurance or medical insurance (also known as medical aid in South Africa) is a type of insurance that covers the whole or a part of the risk of a person incurring medical expenses.",
+      button: "Read More",
+    },
+    {
+      _id: "5",
+      image: <Article5 />,
+      heading:
+        "Important Component for Choosing the best Health Insurance Plan  ",
+      text: "Health insurance or medical insurance (also known as medical aid in South Africa) is a type of insurance that covers the whole or a part of the risk of a person incurring medical expenses.",
+      button: "Read More",
+    },
+    {
+      _id: "6",
+      image: <Article6 />,
+      heading:
+        "First Aid Mesures For Treating Cardaic Arrest Before the Arrival of the Doctor  ",
+      text: "Health insurance or medical insurance (also known as medical aid in South Africa) is a type of insurance that covers the whole or a part of the risk of a person incurring medical expenses.",
+      button: "Read More",
+    },
+  ],
+};
+
+export const content = [
+  {
+    _id: "1",
+    image: <Article1 />,
+    heading: "The Challenge of Choosing a Health Insurace Plans ",
+    text: "Health insurance or medical insurance (also known as medical aid in South Africa) is a type of insurance that covers the whole or a part of the risk of a person incurring medical expenses.",
+    button: "Read More",
+  },
+  {
+    _id: "2",
+    image: <Article2 />,
+    heading: "Pricing Plan and Its Benefits for you and your Family  ",
+    text: "Health insurance or medical insurance (also known as medical aid in South Africa) is a type of insurance that covers the whole or a part of the risk of a person incurring medical expenses.",
+    button: "Read More",
+  },
+  {
+    _id: "3",
+    image: <Article3 />,
+    heading: "The Best Health Insurance Plan for you and your Family Members ",
+    text: "Health insurance or medical insurance (also known as medical aid in South Africa) is a type of insurance that covers the whole or a part of the risk of a person incurring medical expenses.",
+    button: "Read More",
+  },
+  {
+    _id: "4",
+    image: <Article4 />,
+    heading: "The Best Health Insurance Plan for you and your Family Members ",
+    text: "Health insurance or medical insurance (also known as medical aid in South Africa) is a type of insurance that covers the whole or a part of the risk of a person incurring medical expenses.",
+    button: "Read More",
+  },
+  {
+    _id: "5",
+    image: <Article5 />,
+    heading:
+      "Important Component for Choosing the best Health Insurance Plan  ",
+    text: "Health insurance or medical insurance (also known as medical aid in South Africa) is a type of insurance that covers the whole or a part of the risk of a person incurring medical expenses.",
+    button: "Read More",
+  },
+  {
+    _id: "6",
+    image: <Article6 />,
+    heading:
+      "First Aid Mesures For Treating Cardaic Arrest Before the Arrival of the Doctor  ",
+    text: "Health insurance or medical insurance (also known as medical aid in South Africa) is a type of insurance that covers the whole or a part of the risk of a person incurring medical expenses.",
+    button: "Read More",
+  },
+];
 
 export const testimonials = {
   title: "Testimonials ",

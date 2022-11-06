@@ -3,6 +3,7 @@ import Logo from "../images/Logo.svg";
 import { CgClose } from "react-icons/cg";
 import {AiOutlineMenu} from "react-icons/ai"
 import NavMobile from "./NavMobile";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [bg, setBg] = useState(false);
@@ -59,13 +60,13 @@ const Navbar = () => {
           > */}
           <ul class="lg:flex hidden flex-col p-4  mt-4  rounded-lg  md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0  ">
             <li className="text-[18px]">
-              <a
-                href="google.com"
+              <Link
+                to="/"
                 class="block py-2 pr-4 pl-3 text-white bg-primary rounded md:bg-transparent md:text-primary md:p-0 dark:text-white"
                 aria-current="page"
               >
                 Home
-              </a>
+              </Link>
             </li>
             <li className="text-[18px]">
               <a
@@ -92,12 +93,12 @@ const Navbar = () => {
               </a>
             </li>
             <li className="text-[18px]">
-              <a
-                href="google.com"
+              <Link
+                to="/articles"
                 class="block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-primary md:p-0 md:dark:hover:text-white dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
               >
                 Articles
-              </a>
+              </Link>
             </li>
             <li className="text-[18px]">
               <a

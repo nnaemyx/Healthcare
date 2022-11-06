@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     fontFamily: {
       primary: "Lato",
-      secondary:"Poppins"
+      secondary: "Poppins",
     },
     container: {
       padding: {
@@ -23,6 +23,9 @@ module.exports = {
         primary: "#009A56",
         accent: "#999999",
         secondary: "#a67a68",
+      },
+      backgroundImage: {
+        "hero": "url('/src/images/Articlehero.png')",
       },
     },
   },
